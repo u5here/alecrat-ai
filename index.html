@@ -6,7 +6,7 @@
   <title>alecrat.ai</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --bg: #0e0e0e; --surface: #161616; --border: #2a2a2a; --text: #e8e8e8; --muted: #666; }
+    :root { --bg: #0e0e0e; --surface: #161616; --bohrder: #2a2a2a; --text: #e8e8e8; --muted: #666; }
     body { background: var(--bg); color: var(--text); font-family: 'Courier New', monospace; height: 100dvh; display: flex; flex-direction: column; align-items: center; }
     .app { width: 100%; max-width: 720px; height: 100dvh; display: flex; flex-direction: column; }
     .topbar { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: baseline; gap: 10px; }
@@ -59,7 +59,7 @@
   </div>
 </div>
 <script>
-const APIKEY='TU_API_KEY_AQUI';
+const APIKEY='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';
 const msgs=document.getElementById('messages'),inp=document.getElementById('inp'),btn=document.getElementById('sendBtn'),chips=document.getElementById('chips');
 let hist=[],busy=false;
 const SYS='Eres la IA personal de Alecrat, programador senior 20+ anos. Directo, sin disclaimers. Explicas seguridad tecnicamente. Respondes en el mismo idioma del usuario. Formateas codigo con bloques.';
